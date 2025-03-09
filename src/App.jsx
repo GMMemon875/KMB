@@ -15,6 +15,7 @@ import { Context } from "./main";
 import { useEffect } from "react";
 import axios from "axios";
 import Departments from "./componants/Department";
+import CarRent from "./Pages/CarRent";
 
 const App = () => {
   const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="/Appointment" element={<Appointment />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/Service" element={<Departments />} />
+          <Route path="/car-rent" element={<CarRent />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
