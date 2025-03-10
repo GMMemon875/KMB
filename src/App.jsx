@@ -16,6 +16,13 @@ import { useEffect } from "react";
 import axios from "axios";
 import Departments from "./componants/Department";
 import CarRent from "./Pages/CarRent";
+import GFS from "./Pages/GFS";
+import HostelRent from "./Pages/HostelRent";
+import NewsChannal from "./Pages/NewsChannal";
+import WebDev from "./Pages/WebDev";
+import UiUx from "./Pages/UiUx";
+import Consttruction from "./Pages/Consttruction";
+import Corton from "./Pages/Corton";
 
 const App = () => {
   const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
@@ -50,6 +57,13 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/Service" element={<Departments />} />
           <Route path="/car-rent" element={<CarRent />} />
+          <Route path="/gfs-building" element={<GFS />} />
+          <Route path="/hostel-rent" element={<HostelRent />} />
+          <Route path="/news-channel" element={<NewsChannal />} />
+          <Route path="/web-development" element={<WebDev />} />
+          <Route path="/ui-ux-design" element={<UiUx />} />
+          <Route path="/construction" element={<Consttruction />} />
+          <Route path="/cartoon-animation" element={<Corton />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>

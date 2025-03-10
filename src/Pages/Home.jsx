@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Hero
-        title={"well come to KMB.ai | service provider Company"}
+        title={"welcome to KMB | service provider Company"}
         imageUrl={"./fling.png"}
       />
       <Biography imageUrl={"about.png"} />

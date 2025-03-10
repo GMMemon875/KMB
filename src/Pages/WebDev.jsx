@@ -2,13 +2,13 @@ import React from "react";
 import "../componants/Style/CarPage.css";
 import { Navigate, useNavigate } from "react-router-dom";
 
-const CarPage = () => {
+const WebDev = () => {
   const navigate = useNavigate();
   return (
     <>
       {/* <div className="title">
-        <h2>WelCome to KMB international Car Renting Service</h2>
-      </div> */}
+             <h2>WelCome to KMB international Car Renting Service</h2>
+           </div> */}
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -23,21 +23,22 @@ const CarPage = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">Luxury Car Rent</h1>
+            <h1 className="car-title">Web development</h1>
             <p className="car-description">
-              Experience the comfort and luxury of our premium car rental
-              service. Book now and travel in style.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              saepe quisquam consectetur dicta dolores, aspernatur tempore
+              voluptatem ad quam placeat.
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>AC</li>
-                <li>Automatic</li>
-                <li>GPS</li>
-                <li>Bluetooth Audio</li>
-                <li>5 Seater</li>
+                <li>Promot your youtube channal</li>
+                <li>Promotion your Pruduct </li>
+                <li>24 hours Open</li>
+                <li>10 Add On one Break Time</li>
+                <li>scurity of Your Product</li>
               </ul>
             </div>
 
@@ -58,4 +59,4 @@ const CarPage = () => {
   );
 };
 
-export default CarPage;
+export default WebDev;

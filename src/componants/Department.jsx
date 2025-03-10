@@ -38,11 +38,7 @@ const Departments = () => {
       imageUrl: "/departments/radio.jpg",
       path: "/ui-ux-design",
     },
-    {
-      name: "Product Promotion",
-      imageUrl: "/departments/therapy.jpg",
-      path: "/product-promotion",
-    },
+
     {
       name: "Construction",
       imageUrl: "/departments/contruction.jpg",

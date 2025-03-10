@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  margin-top: 10%;
+}
+
 /* Page Container */
 .car-page-container {
   display: flex;
@@ -60,7 +73,7 @@
 
 /* Features Styling */
 .car-features {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .car-features h3 {
