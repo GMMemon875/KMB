@@ -6,9 +6,13 @@ const Consttruction = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-            <h2>WelCome to KMB international Car Renting Service</h2>
-          </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1>🏗️ Welcome to KMB Construction Service</h1>
+          <p> KMB Construction – Building Dreams, Creating Futures</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -20,24 +24,25 @@ const Consttruction = () => {
               className="car-image"
             />
           </div>
-
           {/* Right Side - Car Details */}
           <div className="car-details">
             <h1 className="car-title">KMB Construction</h1>
             <p className="car-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-              commodi, explicabo illum dolorem perferendis totam, earum,
+              KMB Construction is your reliable partner for top-quality
+              construction services. From residential homes to commercial
+              buildings, we ensure excellence, durability, and modern design in
+              every project. Build with confidence, build with KMB!
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Promot your youtube channal</li>
-                <li>Promotion your Pruduct </li>
-                <li>24 hours Open</li>
-                <li>10 Add On one Break Time</li>
-                <li>scurity of Your Product</li>
+                <li>Expert Team:</li>
+                <li>High-Quality Materials </li>
+                <li>On-Time Delivery: </li>
+                <li>Modern Design</li>
+                <li>Cost-Effective Solutions:</li>
               </ul>
             </div>
 

@@ -5,9 +5,13 @@ const Corton = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-            <h2>WelCome to KMB international Car Renting Service</h2>
-          </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1>🎬 Welcome to KMB Animation & Cartoon Service</h1>
+          <p> Bring Your Ideas to Life with Animation & Cartoon Design</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -18,21 +22,23 @@ const Corton = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">GFS Corton Creation</h1>
+            <h1 className="car-title">Corton Creation & Animation</h1>
             <p className="car-description">
-              KMB is create a Animation Corton creation to your store and Corton
-              Atomation on you Youtube channel
+              Transform your vision into captivating animations and engaging
+              cartoons. Our creative team crafts vibrant, dynamic visuals that
+              tell your story, capture attention, and leave a lasting impression
+              on your audience.
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Gas</li>
-                <li>Watar</li>
-                <li>Road</li>
-                <li>Clean Road</li>
-                <li>Security system</li>
+                <li>Creative Storytelling</li>
+                <li>High-Quality Graphics</li>
+                <li>Custom Characters:</li>
+                <li>2D & 3D Animation</li>
+                <li>Motion Effects:</li>
               </ul>
             </div>
 

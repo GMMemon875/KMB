@@ -9,45 +9,70 @@ const Departments = () => {
 
   const departmentsArray = [
     {
-      name: "Car Rent ",
+      name: "UI/UX Design",
       imageUrl: "/departments/Car.jpg",
-      path: "/car-rent",
+      path: "/ui-ux-design",
     },
     {
-      name: "GFS Building",
+      name: "WEB DEVELOPMENT",
       imageUrl: "/departments/ortho.jpg",
-      path: "/gfs-building",
-    },
-    {
-      name: "Hostel Rent",
-      imageUrl: "/departments/cardio.jpg",
-      path: "/hostel-rent",
-    },
-    {
-      name: "News Chennal",
-      imageUrl: "/departments/neuro.jpg",
-      path: "/news-channel",
-    },
-    {
-      name: "Web development",
-      imageUrl: "/departments/onco.jpg",
       path: "/web-development",
     },
     {
-      name: "UI UX Design",
+      name: "CORTON ANIMATION",
+      imageUrl: "/departments/ent.jpg",
+      path: "/cartoon-animation",
+    },
+    {
+      name: "IMPORTER EXPORTER",
+      imageUrl: "/departments/cardio.jpg",
+      path: "",
+    },
+    {
+      name: "GENERAL TRADING",
+      imageUrl: "/departments/neuro.jpg",
+      path: "",
+    },
+    {
+      name: "SALES AND MARKETING",
+      imageUrl: "/departments/onco.jpg",
+      path: "/gfs-building ",
+    },
+    {
+      name: "CONSTRACTOR",
       imageUrl: "/departments/radio.jpg",
-      path: "/ui-ux-design",
+      path: "/construction",
     },
 
     {
-      name: "Construction",
+      name: "BOYS HOSTEL",
       imageUrl: "/departments/contruction.jpg",
-      path: "/construction",
+      path: "/hostel-rent",
     },
     {
-      name: "Cartoon Animation",
+      name: "DISPOSABLE CENTER",
       imageUrl: "/departments/ent.jpg",
-      path: "/cartoon-animation",
+      path: "",
+    },
+    {
+      name: "WOOD WORK",
+      imageUrl: "/departments/ent.jpg",
+      path: "",
+    },
+    {
+      name: "PRIVATE INVESTIGATION",
+      imageUrl: "/departments/ent.jpg",
+      path: "",
+    },
+    {
+      name: "MEDIA HOUSE",
+      imageUrl: "/departments/ent.jpg",
+      path: "/news-channel",
+    },
+    {
+      name: "CAR RENT",
+      imageUrl: "/departments/ent.jpg",
+      path: "/car-rent",
     },
   ];
 

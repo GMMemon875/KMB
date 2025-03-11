@@ -6,9 +6,13 @@ const CarPage = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-        <h2>WelCome to KMB international Car Renting Service</h2>
-      </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1> 🚗 Welcome to KMB Car Renting Service</h1>
+          <p>Find the best cars for rent at affordable prices!</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -25,19 +29,21 @@ const CarPage = () => {
           <div className="car-details">
             <h1 className="car-title">Luxury Car Rent</h1>
             <p className="car-description">
-              Experience the comfort and luxury of our premium car rental
-              service. Book now and travel in style.
+              Discover the convenience of affordable and reliable car rentals
+              with KMB. Choose from a wide range of vehicles tailored to your
+              needs, whether it's a business trip or a weekend getaway. Drive
+              with confidence and comfort!
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>AC</li>
-                <li>Automatic</li>
-                <li>GPS</li>
-                <li>Bluetooth Audio</li>
-                <li>5 Seater</li>
+                <li>Wide Vehicle Selection</li>
+                <li>Affordable Rates</li>
+                <li>24/7 Customer Support</li>
+                <li>Easy Booking Process</li>
+                <li>Flexible Rental Plans</li>
               </ul>
             </div>
 

@@ -6,9 +6,13 @@ const UiUx = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-            <h2>WelCome to KMB international Car Renting Service</h2>
-          </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1>✨ Welcome to KMB UI/UX Design Service</h1>
+          <p> Elevate Your Brand with Professional UI/UX Design</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -23,21 +27,23 @@ const UiUx = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMB News Channal</h1>
+            <h1 className="car-title">KMB UI/UX design </h1>
             <p className="car-description">
-              KBM News Channal Open to 24 Hours.The KBM Provide a Promotion your
-              Product
+              Unlock the power of user experience with our cutting-edge UI/UX
+              design services. We create intuitive, visually appealing
+              interfaces that enhance user engagement and drive business growth.
+              Let us transform your ideas into seamless digital experiences!
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Promot your youtube channal</li>
-                <li>Promotion your Pruduct </li>
-                <li>24 hours Open</li>
-                <li>10 Add On one Break Time</li>
-                <li>scurity of Your Product</li>
+                <li> User-Centric Design:</li>
+                <li> Modern Aesthetics:</li>
+                <li> Interactive Prototypes: </li>
+                <li> Consistent Branding</li>
+                <li> Accessibility Focus:</li>
               </ul>
             </div>
 

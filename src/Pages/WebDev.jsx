@@ -6,9 +6,13 @@ const WebDev = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-             <h2>WelCome to KMB international Car Renting Service</h2>
-           </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1>🌟 Welcome to KMB Web Development Service</h1>
+          <p>Find the best Web service at affordable prices!</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -25,20 +29,23 @@ const WebDev = () => {
           <div className="car-details">
             <h1 className="car-title">Web development</h1>
             <p className="car-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              saepe quisquam consectetur dicta dolores, aspernatur tempore
-              voluptatem ad quam placeat.
+              Empowering your business with cutting-edge web solutions! At KMB
+              Web Development, we specialize in creating fast, responsive, and
+              visually stunning websites tailored to your unique needs. Whether
+              it's a sleek business site, an e-commerce platform, or a custom
+              web app — we've got you covered. Let us turn your ideas into
+              reality with expert coding and creative design. 🚀
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Promot your youtube channal</li>
-                <li>Promotion your Pruduct </li>
-                <li>24 hours Open</li>
-                <li>10 Add On one Break Time</li>
-                <li>scurity of Your Product</li>
+                <li> Responsive Design</li>
+                <li>Fast Performance</li>
+                <li>Custom Solutions:</li>
+                <li> SEO Friendly:</li>
+                <li> Secure & Scalable: </li>
               </ul>
             </div>
 

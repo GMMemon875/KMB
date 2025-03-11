@@ -6,9 +6,13 @@ const HostelRent = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-          <h2>WelCome to KMB international Car Renting Service</h2>
-        </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1> 🏨 Welcome to KMB Hostel & Guest House Service</h1>
+          <p>Comfort and Convenience at Affordable Rates</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -25,19 +29,21 @@ const HostelRent = () => {
           <div className="car-details">
             <h1 className="car-title">Hostel for Rent</h1>
             <p className="car-description">
-              The comfort and luxury of our premium Hostel Room rental service.
-              Book now and stay secure.
+              Experience a cozy stay at our Hostel & Guest House. Whether you're
+              traveling for business or leisure, we provide a clean, secure, and
+              welcoming environment with modern amenities to make your stay
+              comfortable and enjoyable
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>AC</li>
-                <li>Automatic Light system</li>
-                <li>24 hours Watar</li>
-                <li>Wifi</li>
-                <li>scurity</li>
+                <li>Affordable Accommodation</li>
+                <li>Modern Amenities:</li>
+                <li>Prime Location</li>
+                <li>24/7 Security</li>
+                <li>Friendly Staff:</li>
               </ul>
             </div>
 

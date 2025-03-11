@@ -6,9 +6,13 @@ const NewsChannal = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="title">
-          <h2>WelCome to KMB international Car Renting Service</h2>
-        </div> */}
+      <div className="car-page-wrapper">
+        {/* Title Section */}
+        <div className="title-section">
+          <h1> 📺 Welcome to KMB Media House Service</h1>
+          <p>Elevate Your Brand with Powerful Media Solutions</p>
+        </div>
+      </div>
       <div className="car-page-container">
         <div className="car-card">
           {/* Left Side - Car Image */}
@@ -25,19 +29,21 @@ const NewsChannal = () => {
           <div className="car-details">
             <h1 className="car-title">KMB News Channal</h1>
             <p className="car-description">
-              KBM News Channal Open to 24 Hours.The KBM Provide a Promotion your
-              Product
+              Our Media House offers a full suite of services to amplify your
+              brand’s voice and reach. From content creation to media strategy,
+              we craft engaging experiences that connect with your audience and
+              drive results.
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Promot your youtube channal</li>
-                <li>Promotion your Pruduct </li>
-                <li>24 hours Open</li>
-                <li>10 Add On one Break Time</li>
-                <li>scurity of Your Product</li>
+                <li>Content Creation</li>
+                <li>Media Strategy: </li>
+                <li>Social Media Management</li>
+                <li>Brand Promotion:</li>
+                <li>Audience Analytics:</li>
               </ul>
             </div>
 
