@@ -201,6 +201,11 @@
   .car-card {
     flex-direction: column;
   }
+  .title-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 43%;
+  }
 
   .car-image-container {
     width: 100%;
