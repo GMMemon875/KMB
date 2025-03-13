@@ -29,10 +29,10 @@ const HostelRent = () => {
           <div className="car-details">
             <h1 className="car-title">Hostel for Rent</h1>
             <p className="car-description">
-              Experience a cozy stay at our Hostel & Guest House. Whether you're
-              traveling for business or leisure, we provide a clean, secure, and
-              welcoming environment with modern amenities to make your stay
-              comfortable and enjoyable
+              We offer affordable and comfortable accommodations for travelers,
+              students, and professionals. Our guest house and boys’ hostel
+              provide secure, clean, and convenient living spaces, designed to
+              meet the needs of short-term and long-term stays.
             </p>
 
             {/* Features */}

@@ -2,15 +2,15 @@ import React from "react";
 import "../componants/Style/CarPage.css";
 import { Navigate, useNavigate } from "react-router-dom";
 
-const CarPage = () => {
+const General = () => {
   const navigate = useNavigate();
   return (
     <>
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🚗 Welcome to KMB Car Renting Service</h1>
-          <p>Find the best cars for rent at affordable prices!</p>
+          <h1>🌟 Welcome to KMB General Trading Service</h1>
+          <p>..............................!</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -27,23 +27,23 @@ const CarPage = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">Luxury Car Rent</h1>
+            <h1 className="car-title">General Trading</h1>
             <p className="car-description">
-              Our car rental service offers a wide range of vehicles for both
-              short-term and long-term rentals. Whether for business or leisure,
-              we provide flexible rental options, competitive prices, and a
-              fleet of well-maintained vehicles to suit your travel needs.
+              We offer comprehensive general trading services, dealing in a wide
+              variety of goods across different industries. Whether you're
+              looking to buy or sell, we provide a trusted and efficient
+              platform to facilitate trade at competitive prices. 🚀
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Wide Vehicle Selection</li>
-                <li>Affordable Rates</li>
-                <li>24/7 Customer Support</li>
-                <li>Easy Booking Process</li>
-                <li>Flexible Rental Plans</li>
+                <li> .........</li>
+                <li>..........</li>
+                <li>..........</li>
+                <li> ...........</li>
+                <li> ...........</li>
               </ul>
             </div>
 
@@ -64,4 +64,4 @@ const CarPage = () => {
   );
 };
 
-export default CarPage;
+export default General;

@@ -10,68 +10,54 @@ const Departments = () => {
   const departmentsArray = [
     {
       name: "UI/UX Design",
-      imageUrl: "/departments/Car.jpg",
+      imageUrl: "/departments/",
       path: "/ui-ux-design",
     },
     {
       name: "WEB DEVELOPMENT",
-      imageUrl: "/departments/ortho.jpg",
+      imageUrl: "/departments/",
       path: "/web-development",
     },
     {
-      name: "CORTON ANIMATION",
-      imageUrl: "/departments/ent.jpg",
+      name: "CARTON ANIMATION",
+      imageUrl: "/departments/",
       path: "/cartoon-animation",
     },
     {
       name: "IMPORTER EXPORTER",
-      imageUrl: "/departments/cardio.jpg",
-      path: "",
+      imageUrl: "/departments/",
+      path: "/export",
     },
     {
       name: "GENERAL TRADING",
-      imageUrl: "/departments/neuro.jpg",
-      path: "",
+      imageUrl: "/departments/",
+      path: "/general",
     },
     {
       name: "SALES AND MARKETING",
-      imageUrl: "/departments/onco.jpg",
+      imageUrl: "/departments/",
       path: "/gfs-building ",
     },
     {
-      name: "CONSTRACTOR",
-      imageUrl: "/departments/radio.jpg",
+      name: "Contractor",
+      imageUrl: "/departments/contruction.jpg",
       path: "/construction",
     },
 
     {
       name: "BOYS HOSTEL",
-      imageUrl: "/departments/contruction.jpg",
+      imageUrl: "/departments/ ",
       path: "/hostel-rent",
     },
+
     {
-      name: "DISPOSABLE CENTER",
-      imageUrl: "/departments/ent.jpg",
-      path: "",
-    },
-    {
-      name: "WOOD WORK",
-      imageUrl: "/departments/ent.jpg",
-      path: "",
-    },
-    {
-      name: "PRIVATE INVESTIGATION",
-      imageUrl: "/departments/ent.jpg",
-      path: "",
-    },
-    {
-      name: "MEDIA HOUSE",
-      imageUrl: "/departments/ent.jpg",
+      name: "CBM 24/7 NEWS",
+      imageUrl: "/departments/",
       path: "/news-channel",
     },
     {
       name: "CAR RENT",
-      imageUrl: "/departments/ent.jpg",
+      imageUrl: "/departments/Car.jpg",
       path: "/car-rent",
     },
   ];

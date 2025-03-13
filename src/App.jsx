@@ -23,6 +23,8 @@ import WebDev from "./Pages/WebDev";
 import UiUx from "./Pages/UiUx";
 import Consttruction from "./Pages/Consttruction";
 import Corton from "./Pages/Corton";
+import Export from "./Pages/Export";
+import General from "./Pages/General";
 
 const App = () => {
   const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
@@ -64,6 +66,8 @@ const App = () => {
           <Route path="/ui-ux-design" element={<UiUx />} />
           <Route path="/construction" element={<Consttruction />} />
           <Route path="/cartoon-animation" element={<Corton />} />
+          <Route path="/export" element={<Export />} />
+          <Route path="/general" element={<General />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>

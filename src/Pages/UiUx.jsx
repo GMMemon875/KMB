@@ -29,10 +29,10 @@ const UiUx = () => {
           <div className="car-details">
             <h1 className="car-title">KMB UI/UX design </h1>
             <p className="car-description">
-              Unlock the power of user experience with our cutting-edge UI/UX
-              design services. We create intuitive, visually appealing
-              interfaces that enhance user engagement and drive business growth.
-              Let us transform your ideas into seamless digital experiences!
+              We specialize in creating seamless and engaging user interfaces
+              and experiences that prioritize user satisfaction. Our design
+              approach ensures your website or application is not only visually
+              appealing but also intuitive and easy to navigate.
             </p>
 
             {/* Features */}

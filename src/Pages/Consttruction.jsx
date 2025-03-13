@@ -9,7 +9,7 @@ const Consttruction = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🏗️ Welcome to KMB Construction Service</h1>
+          <h1>🏗️ Welcome to KMB contractor Service</h1>
           <p> KMB Construction – Building Dreams, Creating Futures</p>
         </div>
       </div>
@@ -26,12 +26,12 @@ const Consttruction = () => {
           </div>
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMB Construction</h1>
+            <h1 className="car-title">KMB contractor</h1>
             <p className="car-description">
-              KMB Construction is your reliable partner for top-quality
-              construction services. From residential homes to commercial
-              buildings, we ensure excellence, durability, and modern design in
-              every project. Build with confidence, build with KMB!
+              As a trusted contractor, we provide high-quality construction
+              services for residential, commercial, and industrial projects. Our
+              expert team handles everything from planning to execution,
+              ensuring projects are completed on time and within budget.
             </p>
 
             {/* Features */}

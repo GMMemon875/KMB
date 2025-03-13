@@ -24,10 +24,10 @@ const GFS = () => {
           <div className="car-details">
             <h1 className="car-title">GFS builder</h1>
             <p className="car-description">
-              Discover prime residential and commercial plots with GFS Builders.
-              Offering secure and affordable investment opportunities in
-              strategic locations, GFS Builders ensures a hassle-free buying
-              process and future value growth. Start building your dream today!
+              Our sales and marketing team crafts tailored strategies to promote
+              your brand, increase customer engagement, and drive sales. From
+              digital marketing to traditional sales techniques, we help
+              businesses grow and reach their target audience effectively.
             </p>
 
             {/* Features */}

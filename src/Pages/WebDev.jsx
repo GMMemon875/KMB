@@ -29,12 +29,10 @@ const WebDev = () => {
           <div className="car-details">
             <h1 className="car-title">Web development</h1>
             <p className="car-description">
-              Empowering your business with cutting-edge web solutions! At KMB
-              Web Development, we specialize in creating fast, responsive, and
-              visually stunning websites tailored to your unique needs. Whether
-              it's a sleek business site, an e-commerce platform, or a custom
-              web app — we've got you covered. Let us turn your ideas into
-              reality with expert coding and creative design. 🚀
+              Our full-stack development services cover both the front-end and
+              back-end, delivering robust, scalable, and secure web
+              applications. We use the latest technologies to create
+              high-performance websites that meet your business goals. 🚀
             </p>
 
             {/* Features */}
