@@ -9,7 +9,7 @@ const Consttruction = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🏗️ Welcome to KMB contractor Service</h1>
+          <h1>🏗️ Welcome to KMBI contractor Service</h1>
           <p> KMB Construction – Building Dreams, Creating Futures</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Consttruction = () => {
           </div>
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMB contractor</h1>
+            <h1 className="car-title">KMBI contractor</h1>
             <p className="car-description">
               As a trusted contractor, we provide high-quality construction
               services for residential, commercial, and industrial projects. Our

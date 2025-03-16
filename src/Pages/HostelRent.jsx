@@ -9,7 +9,7 @@ const HostelRent = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🏨 Welcome to KMB Hostel & Guest House Service</h1>
+          <h1> 🏨 Welcome to KMBI Hostel & Guest House Service</h1>
           <p>Comfort and Convenience at Affordable Rates</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const HostelRent = () => {
 
           <div className="car-image-container">
             <img
-              src="/departments/Car.jpg"
+              src="/Depart/hostel2.jpg"
               alt="Luxury Car"
               className="car-image"
             />

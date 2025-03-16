@@ -9,7 +9,7 @@ const NewsChannal = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 📺 Welcome to KMB Media House Service</h1>
+          <h1> 📺 Welcome to KMBI Media House Service</h1>
           <p>Elevate Your Brand with Powerful Media Solutions</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const NewsChannal = () => {
 
           <div className="car-image-container">
             <img
-              src="/departments/Car.jpg"
+              src="/Depart/CBN1.jpg"
               alt="Luxury Car"
               className="car-image"
             />
@@ -27,7 +27,7 @@ const NewsChannal = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMB News Channal</h1>
+            <h1 className="car-title">KMBI News Channal</h1>
             <p className="car-description">
               Our Media House offers a full suite of services to amplify your
               brand’s voice and reach. From content creation to media strategy,

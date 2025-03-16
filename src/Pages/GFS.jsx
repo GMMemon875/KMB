@@ -8,8 +8,8 @@ const GFS = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🏡 Welcome to KMB GFS Plot Service</h1>
-          <p> GFS Builders – Your Dream Plot Awaits!</p>
+          <h1> 🏡 Welcome to KMBI Socail Medai Marketing Service</h1>
+          <p> ..........................................!</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -17,7 +17,7 @@ const GFS = () => {
           {/* Left Side - Car Image */}
 
           <div className="car-image-container">
-            <img src="/departments/Car.jpg" alt="GFS" className="car-image" />
+            <img src="/Depart/socail2.jpg" alt="GFS" className="car-image" />
           </div>
 
           {/* Right Side - Car Details */}

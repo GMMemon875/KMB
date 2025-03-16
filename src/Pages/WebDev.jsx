@@ -9,7 +9,7 @@ const WebDev = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🌟 Welcome to KMB Web Development Service</h1>
+          <h1>🌟 Welcome to KMBI Web Development Service</h1>
           <p>Find the best Web service at affordable prices!</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const WebDev = () => {
 
           <div className="car-image-container">
             <img
-              src="/departments/Car.jpg"
+              src="/Depart/web2.jpg"
               alt="Luxury Car"
               className="car-image"
             />
@@ -39,11 +39,11 @@ const WebDev = () => {
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li> Responsive Design</li>
+                <li>Responsive Design</li>
                 <li>Fast Performance</li>
                 <li>Custom Solutions:</li>
-                <li> SEO Friendly:</li>
-                <li> Secure & Scalable: </li>
+                <li>SEO Friendly:</li>
+                <li>Secure & Scalable: </li>
               </ul>
             </div>
 

@@ -18,16 +18,12 @@ const UiUx = () => {
           {/* Left Side - Car Image */}
 
           <div className="car-image-container">
-            <img
-              src="/departments/Car.jpg"
-              alt="Luxury Car"
-              className="car-image"
-            />
+            <img src="/Depart/ui.jpg" alt="Luxury Car" className="car-image" />
           </div>
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMB UI/UX design </h1>
+            <h1 className="car-title">KMBI UI/UX design </h1>
             <p className="car-description">
               We specialize in creating seamless and engaging user interfaces
               and experiences that prioritize user satisfaction. Our design

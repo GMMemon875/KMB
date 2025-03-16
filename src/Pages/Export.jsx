@@ -9,7 +9,7 @@ const Export = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🌟 Welcome to KMB Web Development Service</h1>
+          <h1>🌟 Welcome to KMBI Web Development Service</h1>
           <p>Find the best Web service at affordable prices!</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const Export = () => {
 
           <div className="car-image-container">
             <img
-              src="/departments/Car.jpg"
+              src="/Depart/inport2.jpg"
               alt="Luxury Car"
               className="car-image"
             />

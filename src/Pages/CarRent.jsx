@@ -9,7 +9,7 @@ const CarPage = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🚗 Welcome to KMB Car Renting Service</h1>
+          <h1> 🚗 Welcome to KMBI Car Renting Service</h1>
           <p>Find the best cars for rent at affordable prices!</p>
         </div>
       </div>
@@ -18,11 +18,7 @@ const CarPage = () => {
           {/* Left Side - Car Image */}
 
           <div className="car-image-container">
-            <img
-              src="/departments/Car.jpg"
-              alt="Luxury Car"
-              className="car-image"
-            />
+            <img src="/Depart/car.jpg" alt="Luxury Car" className="car-image" />
           </div>
 
           {/* Right Side - Car Details */}

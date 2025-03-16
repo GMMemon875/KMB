@@ -10,32 +10,32 @@ const Departments = () => {
   const departmentsArray = [
     {
       name: "UI/UX Design",
-      imageUrl: "/departments/",
+      imageUrl: "/Depart/ui.jpg",
       path: "/ui-ux-design",
     },
     {
       name: "WEB DEVELOPMENT",
-      imageUrl: "/departments/",
+      imageUrl: "/Depart/web.jpg",
       path: "/web-development",
     },
     {
       name: "CARTON ANIMATION",
-      imageUrl: "/departments/",
+      imageUrl: "/Depart/carton.jpg",
       path: "/cartoon-animation",
     },
     {
       name: "IMPORTER EXPORTER",
-      imageUrl: "/departments/",
+      imageUrl: "/Depart/inport.jpg",
       path: "/export",
     },
     {
       name: "GENERAL TRADING",
-      imageUrl: "/departments/",
+      imageUrl: "/Depart/treading3.jpg",
       path: "/general",
     },
     {
-      name: "SALES AND MARKETING",
-      imageUrl: "/departments/",
+      name: "Social AND MARKETING",
+      imageUrl: "/Depart/Social.jpg",
       path: "/gfs-building ",
     },
     {
@@ -46,13 +46,13 @@ const Departments = () => {
 
     {
       name: "BOYS HOSTEL",
-      imageUrl: "/departments/ ",
+      imageUrl: "/Depart/hostel1.jpg",
       path: "/hostel-rent",
     },
 
     {
-      name: "CBM 24/7 NEWS",
-      imageUrl: "/departments/",
+      name: "CMB 24/7 NEWS",
+      imageUrl: "/Depart/CBN1.jpg",
       path: "/news-channel",
     },
     {

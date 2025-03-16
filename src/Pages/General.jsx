@@ -9,7 +9,7 @@ const General = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🌟 Welcome to KMB General Trading Service</h1>
+          <h1>🌟 Welcome to KMBI General Trading Service</h1>
           <p>..............................!</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const General = () => {
 
           <div className="car-image-container">
             <img
-              src="/departments/Car.jpg"
+              src="/Depart/garnal.jpg"
               alt="Luxury Car"
               className="car-image"
             />

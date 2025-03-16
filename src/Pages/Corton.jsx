@@ -8,7 +8,7 @@ const Corton = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🎬 Welcome to KMB Animation & Cartoon Service</h1>
+          <h1>🎬 Welcome to KMBI Animation & Cartoon Service</h1>
           <p> Bring Your Ideas to Life with Animation & Cartoon Design</p>
         </div>
       </div>
@@ -17,12 +17,12 @@ const Corton = () => {
           {/* Left Side - Car Image */}
 
           <div className="car-image-container">
-            <img src="/departments/Car.jpg" alt="GFS" className="car-image" />
+            <img src="/Depart/carton1.jpg" alt="GFS" className="car-image" />
           </div>
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">Corton Creation & Animation</h1>
+            <h1 className="car-title">Carton Creation & Animation</h1>
             <p className="car-description">
               Transform your vision into captivating animations and engaging
               cartoons. Our creative team crafts vibrant, dynamic visuals that
