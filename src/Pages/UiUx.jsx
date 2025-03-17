@@ -45,7 +45,7 @@ const UiUx = () => {
 
             {/* Footer Section */}
             <div className="car-footer">
-              <span className="car-price">$45/day</span>
+              {/* <span className="car-price">$45/day</span> */}
               <button
                 className="book-now-btn"
                 onClick={() => navigate(`/Appointment`)}

@@ -19,7 +19,7 @@ const Departments = () => {
       path: "/web-development",
     },
     {
-      name: "CARTON ANIMATION",
+      name: "CARTOON ANIMATION",
       imageUrl: "/Depart/carton.jpg",
       path: "/cartoon-animation",
     },
@@ -34,7 +34,7 @@ const Departments = () => {
       path: "/general",
     },
     {
-      name: "Social AND MARKETING",
+      name: "SOCIAL MEDIA MARKETING",
       imageUrl: "/Depart/Social.jpg",
       path: "/gfs-building ",
     },
