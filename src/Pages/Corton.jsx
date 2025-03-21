@@ -8,8 +8,8 @@ const Corton = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🎬 Welcome to KMBI Animation & Cartoon Service</h1>
-          <p> Bring Your Ideas to Life with Animation & Cartoon Design</p>
+          <h1> Welcome to KMBI Online Teaching Service</h1>
+          <p> Online Tuition Services for International Students</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -24,21 +24,27 @@ const Corton = () => {
           <div className="car-details">
             <h1 className="car-title">Carton Creation & Animation</h1>
             <p className="car-description">
-              Transform your vision into captivating animations and engaging
-              cartoons. Our creative team crafts vibrant, dynamic visuals that
-              tell your story, capture attention, and leave a lasting impression
-              on your audience.
+              We specialize in providing high-quality online tuition for
+              international students, ensuring academic excellence through
+              personalized learning. Our experienced tutors offer expert
+              guidance across various subjects, including
+              <br />
+              We focus on interactive teaching methods, customized lesson plans,
+              and flexible scheduling to accommodate different time zones and
+              learning needs. Whether students require academic support, exam
+              preparation, or concept-based learning, we are committed to
+              delivering a seamless and effective online learning experience.
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li>Creative Storytelling</li>
-                <li>High-Quality Graphics</li>
-                <li>Custom Characters:</li>
-                <li>2D & 3D Animation</li>
-                <li>Motion Effects:</li>
+                <li>Mathematics</li>
+                <li>Science</li>
+                <li>English</li>
+                <li>Quran</li>
+                <li>DIT CIT OAT</li>
               </ul>
             </div>
 

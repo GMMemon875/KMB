@@ -65,7 +65,7 @@ const App = () => {
           <Route path="/web-development" element={<WebDev />} />
           <Route path="/ui-ux-design" element={<UiUx />} />
           <Route path="/construction" element={<Consttruction />} />
-          <Route path="/cartoon-animation" element={<Corton />} />
+          <Route path="/teaching" element={<Corton />} />
           <Route path="/export" element={<Export />} />
           <Route path="/general" element={<General />} />
           <Route path="/register" element={<Register />} />

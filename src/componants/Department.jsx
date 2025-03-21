@@ -19,9 +19,9 @@ const Departments = () => {
       path: "/web-development",
     },
     {
-      name: "CARTOON ANIMATION",
+      name: "Online Teaching",
       imageUrl: "/Depart/carton.jpg",
-      path: "/cartoon-animation",
+      path: "/teaching",
     },
     {
       name: "IMPORTER EXPORTER",

@@ -9,7 +9,7 @@ const Biography = ({ imageUrl }) => {
           <img src={imageUrl} alt="whoweare" />
         </div>
         <div className="banner">
-          <h4>Biography</h4>
+          <h7>Biography</h7>
           <h3>Kausar Marketing Bureau International </h3>
           <p>
             KMBI Established in 1976 by the visionary entrepreneur Alhaj Gulzar

@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Hero
         title={"welcome to KMB International service provider Company"}
-        imageUrl={"./fling.png"}
+        imageUrl={"./4d.png"}
       />
       <Biography imageUrl={"about.png"} />
       <Department />
