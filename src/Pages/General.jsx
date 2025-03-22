@@ -10,7 +10,7 @@ const General = () => {
         {/* Title Section */}
         <div className="title-section">
           <h1>🌟 Welcome to KMBI General Trading Service</h1>
-          <p>..............................!</p>
+          <p>We offer comprehensive general trading services</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -39,11 +39,11 @@ const General = () => {
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li> .........</li>
-                <li>..........</li>
-                <li>..........</li>
-                <li> ...........</li>
-                <li> ...........</li>
+                <li> Global Sourcing & Procurement</li>
+                <li> Import & Export Services</li>
+                <li> Wholesale & Distribution</li>
+                <li> Product Research & Market Analysis</li>
+                <li> Quality Assurance & Inspection</li>
               </ul>
             </div>
 

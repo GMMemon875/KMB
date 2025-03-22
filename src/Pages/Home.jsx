@@ -11,7 +11,7 @@ const Home = () => {
         title={"welcome to KMB International service provider Company"}
         imageUrl={"./4d.png"}
       />
-      <Biography imageUrl={"about.png"} />
+      <Biography imageUrl={"signupheader.png"} />
       <Department />
       <MessageFrom />
     </>

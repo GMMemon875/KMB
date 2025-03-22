@@ -9,8 +9,8 @@ const Export = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1>🌟 Welcome to KMBI Web Development Service</h1>
-          <p>Find the best Web service at affordable prices!</p>
+          <h1>🌟 Welcome to KMBI Importer Exporter Service</h1>
+          <p>Find the best Importer Exporter at affordable prices!</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -39,11 +39,11 @@ const Export = () => {
             <div className="car-features">
               <h3>Features:</h3>
               <ul>
-                <li> .........</li>
-                <li>..........</li>
-                <li>..........</li>
-                <li> ...........</li>
-                <li> ...........</li>
+                <li>Global Sourcing & Procurement</li>
+                <li> Customs Clearance & Documentation</li>
+                <li>Logistics & Shipping Management</li>
+                <li> Trade Compliance & Regulations</li>
+                <li> Product Inspection & Quality Controls</li>
               </ul>
             </div>
 

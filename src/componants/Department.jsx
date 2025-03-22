@@ -34,7 +34,7 @@ const Departments = () => {
       path: "/general",
     },
     {
-      name: "SOCIAL MEDIA MARKETING",
+      name: "SOCIAL MEDIA",
       imageUrl: "/Depart/Social.jpg",
       path: "/gfs-building ",
     },

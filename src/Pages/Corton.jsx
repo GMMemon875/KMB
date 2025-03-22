@@ -22,7 +22,7 @@ const Corton = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">Carton Creation & Animation</h1>
+            <h1 className="car-title">Online Tuition Services</h1>
             <p className="car-description">
               We specialize in providing high-quality online tuition for
               international students, ensuring academic excellence through
