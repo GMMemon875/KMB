@@ -6,15 +6,27 @@
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.message-form {
+  background: linear-gradient(90deg, #1e3a8a, #ff0000); /* Deep Blue to Red */
+  color: #ffffff;
+}
 h2 {
   text-align: center;
+}
+input {
+  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  color: #ffffff;
+}
+.appointment-form {
+  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  color: #ffffff;
 }
 .form-component {
   padding-top: 40px;
   padding-bottom: 60px;
 }
 .form-component h2 {
-  color: gray;
+  color: rgb(255, 255, 255);
   letter-spacing: 4px;
   margin-bottom: 30px;
 }
@@ -37,6 +49,9 @@ h2 {
   display: flex;
   gap: 30px;
 }
+::placeholder {
+  color: white;
+}
 .form-component form input,
 .form-component form select,
 .form-component form textarea {
@@ -45,6 +60,8 @@ h2 {
   padding: 10px 10px 10px 40px;
   border-radius: 7px;
   border: 1px solid gray;
+  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  color: #ffffff;
 }
 .form-component button {
   padding: 10px 35px;

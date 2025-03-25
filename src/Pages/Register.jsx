@@ -36,7 +36,7 @@ const Register = () => {
             dob,
             gender,
             password,
-            role: "Admin",
+            role: "Patient",
           },
           {
             withCredentials: true,
