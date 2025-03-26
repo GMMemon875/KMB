@@ -6,7 +6,7 @@ const Biography = ({ imageUrl }) => {
     <>
       <div className="container biography">
         <div className="banner">
-          <img className="animated-image" src={imageUrl} alt="whoweare" />
+          <img src={imageUrl} alt="whoweare" />
         </div>
         <div className="banner">
           <h7>Biography</h7>

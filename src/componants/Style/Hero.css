@@ -9,20 +9,7 @@
 .container {
   padding: 0 100px;
 }
-.box img {
-  width: 200px;
-  height: 200px;
-  background: black;
-  border: solid greenyellow 4px;
-  border-radius: 13px;
-}
 
-.boxContanier {
-  display: flex;
-  margin-top: -10%;
-  gap: 5px;
-  flex-wrap: wrap;
-}
 p,
 span,
 a {
@@ -37,13 +24,71 @@ h1 {
 .banner img {
   margin-top: 110px;
 }
-.banner {
-  width: 300px;
+
+.boxContainer {
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(6, 1fr); /* 3 column banayega */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  display: flex;
+  margin-bottom: 4%;
+  margin-top: -12%;
 }
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px rgba(13, 13, 13, 13.13); /* Box shadow */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Image ko distort hone se bachayega */
+}
+
+.box:hover {
+  transform: translateY(-20px);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 1186px) {
   h1 {
     font-size: 32px;
     font-weight: 900;
+  }
+
+  .boxContainer {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(4, 1fr); /* 3 column banayega */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    margin-bottom: 4%;
+    margin-top: -12%;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(13, 13, 13, 13.13); /* Box shadow */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
   }
 }
 

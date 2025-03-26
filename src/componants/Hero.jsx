@@ -15,28 +15,35 @@ const Hero = ({ title, imageUrl }) => {
             meet the evolving needs of our global clientele with professionalism
             and expertise.
           </p>
-          <div className="boxContanier">
-            <div className="box">
-              <img src="/4d.png" alt="" />
-            </div>
-            <div className="box">
-              <img src="/4d.png" alt="" />
-            </div>
-            <div className="box">
-              <img src="/4d.png" alt="" />
-            </div>
-            <div className="box">
-              <img src="/4d.png" alt="" />
-            </div>
-          </div>
         </div>
         <div>
           <div className="banner">
             <img src={imageUrl} alt="hero" className="animated-image" />
-            <span>
+            {/* <span>
               <img src="/Vector.png" alt="vector" />
-            </span>
+            </span> */}
           </div>
+        </div>
+      </div>
+
+      <div class="boxContainer">
+        <div class="box">
+          <img src="/Depart/ui.jpg" alt="Image 1" />
+        </div>
+        <div class="box">
+          <img src="/Depart/web.jpg" alt="Image 2" />
+        </div>
+        <div class="box">
+          <img src="/Depart/tranding1.jpg" alt="Image 3" />
+        </div>
+        <div class="box">
+          <img src="/Depart/Social.jpg" alt="Image 4" />
+        </div>
+        <div class="box">
+          <img src="/Depart/inport2.jpg" alt="Image 5" />
+        </div>
+        <div class="box">
+          <img src="/Depart/carton1.jpg" alt="Image 6" />
         </div>
       </div>
     </>

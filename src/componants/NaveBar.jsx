@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="logo">
           <img src="logo.png" alt="logo" className="img-logo" />
         </div>
-        <div className={show ? "navLinks showmenu" : "navLinks"}>
+        <div className={!show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             <Link to={"/"} onClick={() => setShow(!show)}>
               Home
