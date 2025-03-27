@@ -12,6 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg, #121f3d, #4d0000); /* Deep Blue to Red */
+  color: #ffffff;
 
   /* min-height ko hatao ya adjust karo */
   padding: 20px;

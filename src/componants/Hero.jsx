@@ -7,7 +7,8 @@ const Hero = ({ title, imageUrl }) => {
       <div className="hero container">
         <div className="banner">
           <h1>{title}</h1>
-          <p className="p">
+
+          <p>
             Kausar Marketing Bureau International (KMBI), we pride ourselves on
             offering a comprehensive range of services that reflect our
             commitment to quality, innovation, and customer satisfaction. Our
@@ -34,13 +35,13 @@ const Hero = ({ title, imageUrl }) => {
           <img src="/Depart/web.jpg" alt="Image 2" />
         </div>
         <div class="box">
-          <img src="/Depart/tranding1.jpg" alt="Image 3" />
+          <img src="/contractor.jpg" alt="Image 3" />
         </div>
         <div class="box">
           <img src="/Depart/Social.jpg" alt="Image 4" />
         </div>
         <div class="box">
-          <img src="/Depart/inport2.jpg" alt="Image 5" />
+          <img src="/education.jpg" alt="Image 5" />
         </div>
         <div class="box">
           <img src="/Depart/carton1.jpg" alt="Image 6" />

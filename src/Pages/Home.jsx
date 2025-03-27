@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <>
       <Hero
-        title={"welcome to KMB International service provider Company"}
-        imageUrl={"./4d.png"}
+        title={"welcome to </br> KMB International service provider Company"}
+        imageUrl={"./sherazbhai.jpg"}
       />
-      <Biography imageUrl={"signupheader.png"} />
+      <Biography imageUrl={"./sherazbhai.jpg"} />
       <Department />
       <MessageFrom />
     </>

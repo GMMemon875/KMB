@@ -4,10 +4,7 @@ import Biography from "../componants/Biography";
 const AboutUs = () => {
   return (
     <>
-      <Hero
-        title={"KMBI Service Provider Somethink about Me"}
-        imageUrl={"/4db.png"}
-      />
+      <Hero title={"KMBI Service Provider Somethink about Me"} imageUrl={""} />
       <Biography imageUrl={"/whoweare.png"} />
     </>
   );

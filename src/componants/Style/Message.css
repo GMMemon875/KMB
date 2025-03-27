@@ -7,18 +7,18 @@
   font-family: "Montserrat", sans-serif;
 }
 .message-form {
-  background: linear-gradient(90deg, #1e3a8a, #ff0000); /* Deep Blue to Red */
+  background: linear-gradient(90deg, #121f3d, #4d0000); /* Deep Blue to Red */
   color: #ffffff;
 }
 h2 {
   text-align: center;
 }
 input {
-  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  background: linear-gradient(90deg, #121f3d, #4d0000); /* Deep Blue to Red */
   color: #ffffff;
 }
 .appointment-form {
-  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  background: linear-gradient(90deg, #121f3d, #4d0000); /* Deep Blue to Red */
   color: #ffffff;
 }
 .form-component {
@@ -60,7 +60,7 @@ input {
   padding: 10px 10px 10px 40px;
   border-radius: 7px;
   border: 1px solid gray;
-  background: linear-gradient(90deg, #ff0000, #1e3a8a); /* Deep Blue to Red */
+  background: linear-gradient(90deg, #121f3d, #4d0000); /* Deep Blue to Red */
   color: #ffffff;
 }
 .form-component button {

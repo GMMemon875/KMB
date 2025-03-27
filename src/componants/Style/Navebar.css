@@ -14,15 +14,15 @@ nav {
   justify-content: space-between;
   position: absolute;
   align-items: center;
-  border: 2px solid black;
-  color: black;
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 17px;
+
+  color: white;
+
   padding-top: 0px !important;
   padding-bottom: -1px !important;
   z-index: 2;
-  /* background: linear-gradient(90deg, #ff0000, #00438a);
-  color: #ffffff; */
+
+  background: #340000;
+  color: #ffffff;
   /* background: #dddada; */
 }
 
@@ -32,8 +32,8 @@ nav .logo {
   align-items: center;
 }
 .logo {
-  width: 120px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 .logo img {
   width: 150px;
@@ -54,7 +54,7 @@ nav .navLinks .links {
 }
 nav .navLinks .links a {
   text-decoration: none;
-  color: #000000;
+  color: white;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1.4px;

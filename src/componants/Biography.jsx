@@ -24,10 +24,13 @@ const Biography = ({ imageUrl }) => {
             KMBI initially specialized in the import and trading of goods across
             the Gulf region, including Saudi Arabia, Dubai, Bahrain, and Qatar.
             The company’s primary trading portfolio included: Fresh Fruits
-            Livestock Vegetables Sports Items Medical Equipment Over time, KMBI
-            expanded its expertise into general trading, dealing in electrical
-            components and various general commodities, establishing a strong
-            reputation for reliability and quality.
+            Livestock Vegetables Sports Items Medical Equipment Starting as a
+            trading company, it expanded into FAS Multiservices, Contracting
+            Services, IT & education, and media. Under CEO R. Sheraz Kausar,
+            KMBI now offers infrastructure solutions, digital services, online
+            education, and operates CBN 24-7 International and Ufaq News. With a
+            commitment to innovation and excellence, KMBI continues to expand
+            its global footprint
           </p>
         </div>
       </div>
