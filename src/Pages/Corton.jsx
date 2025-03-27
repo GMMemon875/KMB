@@ -38,7 +38,7 @@ const Corton = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Mathematics</li>
                 <li>Science</li>

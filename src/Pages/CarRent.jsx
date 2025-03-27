@@ -9,8 +9,8 @@ const CarPage = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🚗 Welcome to KMBI Car Renting Service</h1>
-          <p>Find the best cars for rent at affordable prices!</p>
+          <h1> 🚗 Welcome to KMBI Car Sales and Purchase Service</h1>
+          <p>Find the best cars for Service at affordable prices!</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -28,12 +28,14 @@ const CarPage = () => {
               Our car rental service offers a wide range of vehicles for both
               short-term and long-term rentals. Whether for business or leisure,
               we provide flexible rental options, competitive prices, and a
-              fleet of well-maintained vehicles to suit your travel needs.
+              fleet of well-maintained vehicles to suit your travel needs. We
+              also offer car sales and purchase services, making it easy for you
+              to buy or sell vehicles with trusted guidance and fair deals.
             </p>
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Wide Vehicle Selection</li>
                 <li>Affordable Rates</li>

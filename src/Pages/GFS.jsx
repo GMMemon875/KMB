@@ -8,8 +8,8 @@ const GFS = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🏡 Welcome to KMBI Socail Medai Marketing Service</h1>
-          <p> We provide a complete range of social media service</p>
+          <h1> 🏡 Welcome to KMBI Social Media Marketing Service</h1>
+          <p> We provide a complete range of Social Media service</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -32,7 +32,7 @@ const GFS = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Social Media Strategy & Planning</li>
                 <li>Content Creation & Scheduling</li>

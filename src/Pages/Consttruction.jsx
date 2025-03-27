@@ -36,13 +36,13 @@ const Consttruction = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
-                <li>Expert Team:</li>
+                <li>Expert Team</li>
                 <li>High-Quality Materials </li>
-                <li>On-Time Delivery: </li>
+                <li>On-Time Delivery </li>
                 <li>Modern Design</li>
-                <li>Cost-Effective Solutions:</li>
+                <li>Cost-Effective Solutions</li>
               </ul>
             </div>
 

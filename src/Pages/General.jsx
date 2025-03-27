@@ -37,7 +37,7 @@ const General = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li> Global Sourcing & Procurement</li>
                 <li> Import & Export Services</li>

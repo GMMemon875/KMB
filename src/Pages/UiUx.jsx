@@ -33,13 +33,13 @@ const UiUx = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features </h3>
               <ul>
-                <li> User-Centric Design:</li>
-                <li> Modern Aesthetics:</li>
-                <li> Interactive Prototypes: </li>
+                <li> User-Centric Design</li>
+                <li> Modern Aesthetics</li>
+                <li> Interactive Prototypes</li>
                 <li> Consistent Branding</li>
-                <li> Accessibility Focus:</li>
+                <li> Accessibility Focus</li>
               </ul>
             </div>
 

@@ -37,7 +37,7 @@ const MessageForm = () => {
 
   return (
     <>
-      <div className="container form-component message-form">
+      <div className="container form-component message-form " id="/message">
         <h2>Send Us A Message</h2>
         <form onSubmit={handleMessage}>
           <div>

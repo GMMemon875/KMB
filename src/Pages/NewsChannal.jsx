@@ -37,13 +37,13 @@ const NewsChannal = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Content Creation</li>
-                <li>Media Strategy: </li>
+                <li>Media Strategy </li>
                 <li>Social Media Management</li>
-                <li>Brand Promotion:</li>
-                <li>Audience Analytics:</li>
+                <li>Brand Promotion</li>
+                <li>Audience Analytics</li>
               </ul>
             </div>
 

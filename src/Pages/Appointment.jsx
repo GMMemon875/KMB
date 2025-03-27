@@ -5,7 +5,10 @@ import Hero from "../componants/Hero";
 const Appointment = () => {
   return (
     <>
-      <Hero title={"Get Appointment For Service "} imageUrl={"./signin.png"} />
+      <Hero
+        title={"Get Appointment For Service "}
+        imageUrl={"./sherazbhai.jpg"}
+      />
 
       <AppointmentForm />
     </>

@@ -37,13 +37,13 @@ const WebDev = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Responsive Design</li>
                 <li>Fast Performance</li>
-                <li>Custom Solutions:</li>
-                <li>SEO Friendly:</li>
-                <li>Secure & Scalable: </li>
+                <li>Custom Solutions</li>
+                <li>SEO Friendly</li>
+                <li>Secure & Scalable </li>
               </ul>
             </div>
 

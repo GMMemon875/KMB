@@ -20,7 +20,7 @@ const Departments = () => {
     },
     {
       name: "Online Teaching",
-      imageUrl: "/Depart/carton.jpg",
+      imageUrl: "/online.jpg",
       path: "/teaching",
     },
     {
@@ -30,7 +30,7 @@ const Departments = () => {
     },
     {
       name: "GENERAL TRADING",
-      imageUrl: "/Depart/treading3.jpg",
+      imageUrl: "/Depart/garnal.jpg",
       path: "/general",
     },
     {

@@ -37,13 +37,13 @@ const HostelRent = () => {
 
             {/* Features */}
             <div className="car-features">
-              <h3>Features:</h3>
+              <h3>Features</h3>
               <ul>
                 <li>Affordable Accommodation</li>
-                <li>Modern Amenities:</li>
+                <li>Modern Amenities</li>
                 <li>Prime Location</li>
                 <li>24/7 Security</li>
-                <li>Friendly Staff:</li>
+                <li>Friendly Staff</li>
               </ul>
             </div>
 
