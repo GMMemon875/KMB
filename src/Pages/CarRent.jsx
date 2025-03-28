@@ -25,22 +25,23 @@ const CarPage = () => {
           <div className="car-details">
             <h1 className="car-title">Luxury Car Rent</h1>
             <p className="car-description">
-              Our car rental service offers a wide range of vehicles for both
-              short-term and long-term rentals. Whether for business or leisure,
-              we provide flexible rental options, competitive prices, and a
-              fleet of well-maintained vehicles to suit your travel needs. We
-              also offer car sales and purchase services, making it easy for you
-              to buy or sell vehicles with trusted guidance and fair deals.
+              Car Sales & Purchase – Buy & Sell New & Used Cars with Ease
+              Looking for a reliable platform to buy or sell cars? Our Car Sales
+              & Purchase service offers a seamless experience for both new and
+              used car transactions. Whether you want to upgrade to a new model
+              or sell your current vehicle at the best price, we ensure a
+              hassle-free process with complete transparency and customer
+              satisfaction.
             </p>
 
             {/* Features */}
             <div className="car-features">
               <h3>Features</h3>
               <ul>
-                <li>Wide Vehicle Selection</li>
-                <li>Affordable Rates</li>
-                <li>24/7 Customer Support</li>
-                <li>Easy Booking Process</li>
+                <li>Variety of Cars – New & used options available.</li>
+                <li>Secure Deals – Verified buyers & sellers.</li>
+                <li>Fair Pricing – Instant car valuation.</li>
+                <li>Hassle-Free Process – Easy paperwork & transactions</li>
                 <li>Flexible Rental Plans</li>
               </ul>
             </div>

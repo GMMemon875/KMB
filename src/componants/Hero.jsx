@@ -1,20 +1,13 @@
 import React from "react";
 import "../componants/Style/Hero.css";
 
-const Hero = ({ title, imageUrl }) => {
+const Hero = ({ title, imageUrl, pera }) => {
   return (
     <>
       <div className="hero container">
         <div className="banner">
           <h1>{title}</h1>
-          <p>
-            Kausar Marketing Bureau International (KMBI), we pride ourselves on
-            offering a comprehensive range of services that reflect our
-            commitment to quality, innovation, and customer satisfaction. Our
-            diverse portfolio spans across multiple sectors, ensuring that we
-            meet the evolving needs of our global clientele with professionalism
-            and expertise.
-          </p>
+          <p>{pera}</p>
         </div>
         <div>
           <div className="banner">

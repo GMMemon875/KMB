@@ -8,8 +8,8 @@ const GFS = () => {
       <div className="car-page-wrapper">
         {/* Title Section */}
         <div className="title-section">
-          <h1> 🏡 Welcome to KMBI Social Media Marketing Service</h1>
-          <p> We provide a complete range of Social Media service</p>
+          <h1> 🏡 Welcome to KMBI Social Madia Marketing Service</h1>
+          <p> We provide a complete range of Social Madia service</p>
         </div>
       </div>
       <div className="car-page-container">
@@ -22,7 +22,7 @@ const GFS = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title"> Socail Medai Marketing</h1>
+            <h1 className="car-title"> Socail Madai Marketing</h1>
             <p className="car-description">
               Our sales and marketing team crafts tailored strategies to promote
               your brand, increase customer engagement, and drive sales. From
@@ -34,9 +34,9 @@ const GFS = () => {
             <div className="car-features">
               <h3>Features</h3>
               <ul>
-                <li>Social Media Strategy & Planning</li>
+                <li>Social Madia Strategy & Planning</li>
                 <li>Content Creation & Scheduling</li>
-                <li>Social Media Advertising</li>
+                <li>Social Madia Advertising</li>
                 <li> Community Management</li>
                 <li>Performance Analysis & Reporting</li>
               </ul>

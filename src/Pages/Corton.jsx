@@ -17,7 +17,7 @@ const Corton = () => {
           {/* Left Side - Car Image */}
 
           <div className="car-image-container">
-            <img src="/Depart/carton1.jpg" alt="GFS" className="car-image" />
+            <img src="/online.jpg" alt="GFS" className="car-image" />
           </div>
 
           {/* Right Side - Car Details */}

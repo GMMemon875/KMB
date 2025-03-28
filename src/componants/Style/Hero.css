@@ -156,8 +156,10 @@ h1 {
   font-size: 40px;
 }
 .hero .banner p {
+  max-width: 530px;
   color: #ffffff;
-  letter-spacing: 2px;
+  font-size: 17px;
+  text-align: justify;
 }
 .hero .banner span {
   position: absolute;
