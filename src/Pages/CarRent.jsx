@@ -42,7 +42,7 @@ const CarPage = () => {
                 <li>Secure Deals – Verified buyers & sellers.</li>
                 <li>Fair Pricing – Instant car valuation.</li>
                 <li>Hassle-Free Process – Easy paperwork & transactions</li>
-                <li>Flexible Rental Plans</li>
+                <li>Old and new car sales and purchase</li>
               </ul>
             </div>
 

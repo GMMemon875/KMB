@@ -22,7 +22,7 @@ const GFS = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title"> Socail Madai Marketing</h1>
+            <h1 className="car-title"> Social Media Marketing</h1>
             <p className="car-description">
               Our sales and marketing team crafts tailored strategies to promote
               your brand, increase customer engagement, and drive sales. From

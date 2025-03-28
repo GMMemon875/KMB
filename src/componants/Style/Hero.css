@@ -108,6 +108,7 @@ h1 {
     font-size: 32px;
   }
 }
+
 @media (max-width: 1085px) {
   .hero .banner span {
     right: -480px;
@@ -127,6 +128,9 @@ h1 {
   @media (max-width: 700px) {
     .hero {
       padding-bottom: 40px;
+    }
+    .hero .banner p {
+      font-size: 14px;
     }
   }
 }
@@ -159,7 +163,6 @@ h1 {
   max-width: 530px;
   color: #ffffff;
   font-size: 17px;
-  text-align: justify;
 }
 .hero .banner span {
   position: absolute;

@@ -56,7 +56,7 @@ const Departments = () => {
       path: "/news-channel",
     },
     {
-      name: "CAR RENT",
+      name: "Car Sales and Purchase",
       imageUrl: "/departments/Car.jpg",
       path: "/car-rent",
     },
