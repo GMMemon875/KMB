@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
 }
 .container {
   padding: 0 100px;
@@ -30,6 +29,10 @@ a {
 h1 {
   font-size: 5px;
   font-weight: 900;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   color: white;
 }
 
@@ -153,6 +156,10 @@ h1 {
 .hero .banner p {
   max-width: 550px;
   color: white;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .hero .banner h1 {
   letter-spacing: 2px;

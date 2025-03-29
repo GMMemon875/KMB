@@ -4,19 +4,23 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 footer {
   padding-bottom: 30px !important;
-  background: #585858;
+  background: #121f3d;
   color: white;
 }
+
 footer hr {
   margin-bottom: 30px;
 }
 footer .content {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 footer .content div {
   flex: 1;
@@ -31,12 +35,19 @@ footer .content div h4 {
 footer .content div ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 footer .content div ul a {
   color: white;
   text-decoration: none;
 }
+.logo-img {
+  border-radius: 10px 10px 10px 10px;
+}
+footer .logo-img {
+  width: 100%;
+}
+
 footer .content div ul a:hover {
   color: #8570ed;
   transition: 0.3s;

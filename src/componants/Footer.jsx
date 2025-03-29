@@ -44,7 +44,7 @@ const Footer = () => {
         <hr />
         <div className="content">
           <div>
-            <img src="/logo.png" alt="logo" className="logo-img" />
+            <img src="/logooo.jpg" alt="logo" className="logo-img" />
           </div>
           <div>
             <h4>Quick Links</h4>
@@ -68,7 +68,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="contact">
             <h4>Contact</h4>
             <div>
               <FaPhone />
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
             <div>
               <MdEmail />
-              <span>...............@gmail.com</span>
+              <span>Kmb.international.fas@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />
