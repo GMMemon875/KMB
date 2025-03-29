@@ -23,7 +23,7 @@ const CarPage = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">Luxury Car Rent</h1>
+            <h1 className="car-title">Luxury Car Sales & Purchase</h1>
             <p className="car-description">
               Car Sales & Purchase – Buy & Sell New & Used Cars with Ease
               Looking for a reliable platform to buy or sell cars? Our Car Sales

@@ -27,7 +27,7 @@ const NewsChannal = () => {
 
           {/* Right Side - Car Details */}
           <div className="car-details">
-            <h1 className="car-title">KMBI News Channal</h1>
+            <h1 className="car-title">CBN News Channal</h1>
             <p className="car-description">
               Our Media House offers a full suite of services to amplify your
               brand’s voice and reach. From content creation to media strategy,

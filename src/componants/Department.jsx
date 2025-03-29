@@ -51,7 +51,7 @@ const Departments = () => {
     },
 
     {
-      name: "CMB 24/7 NEWS",
+      name: "CBN 24-7 NEWS",
       imageUrl: "/Depart/CBN1.jpg",
       path: "/news-channel",
     },

@@ -1,7 +1,12 @@
 import React from "react";
 import "../componants/Style/Hero.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = ({ title, imageUrl, pera }) => {
+  const phoneNumber = "923113872155";
+  const message = encodeURIComponent(
+    "Hello Sheraaz! I need more information ."
+  );
   return (
     <>
       <div className="hero container">
@@ -17,6 +22,14 @@ const Hero = ({ title, imageUrl, pera }) => {
             </span> */}
           </div>
         </div>
+        <a
+          href={`https://wa.me/${phoneNumber}?text=${message}`}
+          className="whatsapp-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp className="whatsapp-icon" />
+        </a>
       </div>
 
       <div class="boxContainer">
