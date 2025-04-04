@@ -3,10 +3,8 @@ import "../componants/Style/Hero.css";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = ({ title, imageUrl, pera }) => {
-  const phoneNumber = "923113872155";
-  const message = encodeURIComponent(
-    "Hello Sheraaz! I need more information ."
-  );
+  const phoneNumber = "923 11 2221231";
+  const message = encodeURIComponent("Hi , Can i get more info on this?.");
   return (
     <>
       <div className="hero container">

@@ -29,21 +29,25 @@ const NewsChannal = () => {
           <div className="car-details">
             <h1 className="car-title">CBN News Channal</h1>
             <p className="car-description">
-              Our Media House offers a full suite of services to amplify your
-              brand’s voice and reach. From content creation to media strategy,
-              we craft engaging experiences that connect with your audience and
-              drive results.
+              At Our Media House, we amplify your brand through content
+              creation, media strategy, social media management, brand
+              promotion, and audience analytics.
             </p>
 
-            {/* Features */}
             <div className="car-features">
               <h3>Features</h3>
               <ul>
-                <li>Content Creation</li>
-                <li>Media Strategy </li>
-                <li>Social Media Management</li>
-                <li>Brand Promotion</li>
-                <li>Audience Analytics</li>
+                <li>CBN 24-7 – A 24/7 news channel</li>
+                <li>Ufaq News Network – A digital news platform</li>
+                <li>
+                  Roznama Nida-e-Karachi – Focused on Karachi’s local news &
+                  culture
+                </li>
+                <li>Roznama Syasi Ufaq – In-depth political analysis</li>
+                <li>
+                  {" "}
+                  We ensure a strong media presence across diverse platforms.
+                </li>
               </ul>
             </div>
 

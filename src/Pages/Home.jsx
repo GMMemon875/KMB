@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Hero
         title={`Welcome to  KMB International service provider Company`}
-        imageUrl={"./sherazbaba.jpg"}
+        imageUrl={"./funder.jpg"}
         pera={
           " Kausar Marketing Bureau International (KMBI) we pride ourselves on offering a comprehensive range of services that reflect our commitment to quality, innovation, and customer satisfaction. Our diverse portfolio spans across multiple sectors, ensuring that we meet the evolving needs of our global clients with professionalism and expertise"
         }
