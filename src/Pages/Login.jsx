@@ -47,7 +47,7 @@ const Login = () => {
     <>
       <div className="container form-component login-form">
         <h2>Sign In</h2>
-        <p>Please Login To Continue</p>
+        <p style={{ color: "#ffff" }}>Please Login To Continue</p>
 
         <form onSubmit={handleLogin}>
           <input
@@ -75,15 +75,20 @@ const Login = () => {
               flexDirection: "row",
             }}
           >
-            <p style={{ marginBottom: 0 }}>Not Registered?</p>
+            <p style={{ marginBottom: 0, color: "#ffff" }}>Not Registered?</p>
             <Link
               to={"/register"}
-              style={{ textDecoration: "none", color: "#271776ca" }}
+              style={{ textDecoration: "none", color: "#fffff" }}
             >
               Register Now
             </Link>
           </div>
-          <div style={{ justifyContent: "center", alignItems: "center" }}>
+          <div
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <button type="submit">Login</button>
           </div>
         </form>

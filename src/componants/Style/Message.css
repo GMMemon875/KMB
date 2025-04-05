@@ -22,6 +22,7 @@ input {
 .form-component {
   padding-top: 40px;
   padding-bottom: 60px;
+  scroll-margin-top: 100px;
 }
 .form-component h2 {
   color: rgb(255, 255, 255);

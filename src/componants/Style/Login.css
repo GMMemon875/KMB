@@ -1,34 +1,30 @@
 .login-form {
-  margin: 100px auto 20px auto;
-  max-width: 800px;
+  margin: 100px;
   text-align: center;
+  border: 2px solid black;
+  border-radius: 10%;
+  background: linear-gradient(90deg, #121f3d, #4d0000);
 }
 
 .register-form {
-  max-width: 1200px;
+  max-width: 100px;
   margin: 100px auto 20px auto;
 }
 .login-form h2 {
-  color: #000;
+  color: white;
 }
-.register-form h2 {
-  color: #000;
-}
+
 .login-form {
-  margin: 100px auto 20px auto;
+  margin: 150px auto 20px auto;
   max-width: 800px;
   text-align: center;
+  height: 50%;
 }
 .register-form {
   max-width: 1200px;
   margin: 100px auto 20px auto;
 }
-.login-form h2 {
-  color: #000;
-}
-.register-form h2 {
-  color: #000;
-}
+
 @media (max-width: 1110px) {
   .appointment-form form div:nth-child(4) {
     flex-direction: column;
