@@ -1,0 +1,28 @@
+.register-form {
+  margin: 100px;
+
+  border: 2px solid black;
+  border-radius: 2%;
+  background: linear-gradient(90deg, #121f3d, #4d0000);
+  margin: 150px auto 20px auto;
+}
+
+.register-form {
+  max-width: 1200px;
+  margin: 150px auto 20px auto;
+}
+section {
+  background: linear-gradient(90deg, #121f3d, #4d0000);
+}
+select option {
+  color: black;
+}
+
+@media (max-width: 1110px) {
+  .appointment-form form div:nth-child(4) {
+    flex-direction: column;
+  }
+  .appointment-form form div:nth-child(5) {
+    flex-direction: column;
+  }
+}

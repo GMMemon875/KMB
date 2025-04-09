@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import "../componants/Style/Login.css";
+import "../componants/Style/Register.css";
 
 const Register = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
@@ -26,7 +26,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/patient/register",
+          "kmbbackend-production.up.railway.app/api/v1/user/patient/register",
           {
             firstName,
             lastName,
@@ -69,8 +69,8 @@ const Register = () => {
     <>
       <div className="container form-component register-form">
         <h2>Sign Up</h2>
-        <p>Please Sign Up To Continue</p>
-        <p>
+        <p style={{ color: "#ffff" }}> Please Sign Up To Continue</p>
+        <p style={{ color: "#ffff" }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
           voluptas expedita itaque ex, totam ad quod error?
         </p>
@@ -118,7 +118,11 @@ const Register = () => {
             />
           </div>
           <div>
-            <select value={gender} onChange={(e) => setGender(e.target.value)}>
+            <select
+              style={{ background: "#121f3d, #4d0000" }}
+              value={gender}
+              onChange={(e) => setGender(e.target.value)}
+            >
               <option value="">Select Gender</option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>

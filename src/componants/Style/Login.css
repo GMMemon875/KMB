@@ -7,9 +7,14 @@
 }
 
 .register-form {
-  max-width: 100px;
-  margin: 100px auto 20px auto;
+  margin: 100px;
+
+  border: 2px solid black;
+  border-radius: 2%;
+  background: linear-gradient(90deg, #121f3d, #4d0000);
+  margin: 150px auto 20px auto;
 }
+
 .login-form h2 {
   color: white;
 }
@@ -22,7 +27,7 @@
 }
 .register-form {
   max-width: 1200px;
-  margin: 100px auto 20px auto;
+  margin: 150px auto 20px auto;
 }
 
 @media (max-width: 1110px) {
