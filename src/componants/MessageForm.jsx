@@ -15,7 +15,7 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          `kmbbackend-production.up.railway.app/api/v1/message/send`,
+          `https://kmbbackend-production.up.railway.app/api/v1/message/send`,
 
           { firstName, lastName, email, phone, message },
           {

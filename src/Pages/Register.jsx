@@ -26,7 +26,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "kmbbackend-production.up.railway.app/api/v1/user/patient/register",
+          "https://kmbbackend-production.up.railway.app/api/v1/user/patient/register",
           {
             firstName,
             lastName,

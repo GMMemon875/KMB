@@ -33,7 +33,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "kmbbackend-production.up.railway.app/api/v1/user/patient/me",
+          "https://kmbbackend-production.up.railway.app/api/v1/user/patient/me",
           {
             withCredentials: true,
           }

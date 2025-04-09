@@ -19,7 +19,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "kmbbackend-production.up.railway.app/api/v1/user/login",
+          "https://kmbbackend-production.up.railway.app/api/v1/user/login",
           { email, password, confirmPassword, role: "Patient" },
           {
             withCredentials: true,
