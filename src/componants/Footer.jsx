@@ -53,7 +53,40 @@ const Footer = () => {
               <Link to={"/appointment"}>Appointment</Link>
               <Link to={"/about"}>About</Link>
             </ul>
+            <div>
+              <span className="facebook-icon">
+                <a
+                  href="https://www.facebook.com/share/153B1RNaSC/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-facebook"></i>
+                </a>
+              </span>
+              <span className="facebook-icon">
+                <Link
+                  to="https://www.instagram.com/kmbinternational2224?igsh=d25rY2dxZzF5YjEz"
+                  target="blank"
+                >
+                  <i className="text-white fa-brands fa-instagram"></i>
+                </Link>
+              </span>
+              <span className="facebook-icon">
+                <a
+                  href="https://www.olx.com.pk/item/pakinn-hostel-for-student-govt-or-bank-employes-visit-4pm-to-8pm-iid-1080605838"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/OLX_New_Logo.png"
+                    alt="OLX"
+                    style={{ width: "18px", height: "15px" }}
+                  />
+                </a>
+              </span>
+            </div>
           </div>
+
           <div>
             <div className="Hours">
               <div>Days</div>
@@ -72,7 +105,7 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>+923 11 2221231</span>
+              <span>+923 238798054</span>
             </div>
             <div>
               <MdEmail />

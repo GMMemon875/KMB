@@ -36,7 +36,7 @@ const AppointmentForm = () => {
   useEffect(() => {
     const fetchDoctors = async () => {
       const { data } = await axios.get(
-        "https://kmbbackend-production.up.railway.app/api/v1/user/doctors",
+        `${import.meta.env.VITE_API_KEY}/api/v1/user/doctors`,
         { withCredentials: true }
       );
       setDoctors(data.doctors);
@@ -49,7 +49,7 @@ const AppointmentForm = () => {
     try {
       const hasVisitedBool = Boolean(hasVisited);
       const { data } = await axios.post(
-        "https://kmbbackend-production.up.railway.app/api/v1/appointment/post",
+        `${import.meta.env.VITE_API_KEY}/api/v1/appointment/post`,
         {
           firstName,
           lastName,

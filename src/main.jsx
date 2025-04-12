@@ -8,6 +8,7 @@ export const Context = createContext({ isAuthenticated: false });
 const AppWrapper = () => {
   // State to track authentication status
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
 
   // State to track user data
   const [user, setUser] = useState({});

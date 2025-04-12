@@ -27,17 +27,19 @@ import Export from "./Pages/Export";
 import General from "./Pages/General";
 
 const App = () => {
+  // console.log(${import.meta.env.VITE_API_KEY});
   const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
 
   useEffect(() => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://kmbbackend-production.up.railway.app/api/v1/user/patient/me",
+          `${import.meta.env.VITE_API_KEY}/api/v1/user/patient/me`,
           {
             withCredentials: true,
           }
         );
+
         // console.log(response);
         setIsAuthenticated(true);
         setUser(response.data.user);

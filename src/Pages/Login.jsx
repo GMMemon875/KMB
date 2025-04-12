@@ -19,7 +19,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "https://kmbbackend-production.up.railway.app/api/v1/user/login",
+          `${import.meta.env.VITE_API_KEY}/api/v1/user/login`,
           { email, password, confirmPassword, role: "Patient" },
           {
             withCredentials: true,

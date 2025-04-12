@@ -74,6 +74,25 @@ footer .content div:last-child div {
 footer .content div:last-child div svg {
   font-size: 24px;
 }
+
+.facebook-icon {
+  background-color: black; /* bg-gray-950 */
+  border: 1px solid #ffffff33; /* subtle border */
+  padding: 10px 12px; /* py-2 px-3 */
+  border-radius: 9999px; /* rounded-full */
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.facebook-icon:hover {
+  background-color: #ea580c; /* hover:bg-orange-600 */
+}
+
+.facebook-icon i {
+  color: white;
+  font-size: 16px;
+}
 @media (max-width: 1135px) {
   footer .content {
     flex-wrap: wrap;

@@ -26,7 +26,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "https://kmbbackend-production.up.railway.app/api/v1/user/patient/register",
+          `${import.meta.env.VITE_API_KEY}/api/v1/user/patient/register`,
           {
             firstName,
             lastName,

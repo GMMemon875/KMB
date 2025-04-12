@@ -12,12 +12,9 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get(
-        "https://kmbbackend-production.up.railway.app/api/v1/user/patient/logout",
-        {
-          withCredentials: true,
-        }
-      )
+      .get(`${import.meta.env.VITE_API_KEY}/api/v1/user/patient/logout`, {
+        withCredentials: true,
+      })
       .then((res) => {
         toast.success(res.data.message);
         setIsAuthenticated(false);
