@@ -15,7 +15,8 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          `${import.meta.env.VITE_API_KEY}/api/v1/message/send`,
+          `https://kmbbackend-production-d71b.up.railway.app/api/v1/message/send`,
+          // ${import.meta.env.VITE_API_KEY}
 
           { firstName, lastName, email, phone, message },
           {
