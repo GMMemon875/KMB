@@ -15,9 +15,7 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          `https://kmbbackend-production-d71b.up.railway.app/api/v1/message/send`,
-          // ${import.meta.env.VITE_API_KEY}
-
+          `https://kmbbackend-production-d7lb.up.railway.app/api/v1/message/send`, // Backtick (`) use karein
           { firstName, lastName, email, phone, message },
           {
             withCredentials: true,
@@ -33,10 +31,9 @@ const MessageForm = () => {
           setMessage("");
         });
     } catch (error) {
-      toast.error(error.response.data.message);
+      toast.error(error.response?.data?.message || "Request fail hui!");
     }
   };
-
   return (
     <>
       <div className="container form-component message-form " id="/message">
