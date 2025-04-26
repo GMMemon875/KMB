@@ -15,7 +15,7 @@ const MessageForm = () => {
     try {
       await axios
         .post(
-          `https://kmbbackend-production-d7lb.up.railway.app/api/v1/message/send`, // Backtick (`) use karein
+          ` ${import.meta.env.VITE_API_KEY}/api/v1/message/send`, // Backtick (`) use karein
           { firstName, lastName, email, phone, message },
           {
             withCredentials: true,
